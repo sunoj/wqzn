@@ -1,0 +1,233 @@
+
+
+# General
+/favicon.ico                                /favicon.png                                    302!
+/install                                    /setup                                          301!
+
+
+# CURRENT REDIRECTS
+/concepts                                   /concepts/introduction/                         301!
+/api/handlebars-themes/helpers/blog         /api/handlebars-themes/helpers/site             301!
+/api/handlebars-themes/helpers/lang         /api/handlebars-themes/helpers/site             301!
+/concepts/routing                           /api/handlebars-themes/routing/                 301!
+/concepts/redirects                         /api/handlebars-themes/redirects/               301!
+/api/helpers                                /api/javascript/sdk/#helpers                    301!
+
+
+# ---------------- OLD CONTENT - PROBABLY DONT EDIT BELOW HERE ----------------
+
+/docs/getting-started-guide            /concepts/introduction/                  301!
+/docs/hosting                          /concepts/hosting/                       301!
+/docs/install                          /install/ubuntu/                         301!
+/docs/install-local                    /install/local/                          301!
+/docs/config                           /concepts/config/                        301!
+/docs/mail-config                      /concepts/config/                        301!
+/docs/redirects                        /api/handlebars-themes/redirects/        301!
+/docs/dynamic-routing                  /concepts/routing/                       301!
+/docs/ghost-cli                        /api/ghost-cli/                          301!
+/docs/cli-config                       /api/ghost-cli/config/                   301!
+/docs/cli-doctor                       /api/ghost-cli/doctor/                   301!
+/docs/cli-help                         /api/ghost-cli/help/                     301!
+/docs/cli-install                      /api/ghost-cli/install/                  301!
+/docs/cli-log                          /api/ghost-cli/log/                      301!
+/docs/cli-ls                           /api/ghost-cli/ls/                       301!
+/docs/cli-setup                        /api/ghost-cli/setup/                    301!
+/docs/cli-start                        /api/ghost-cli/start/                    301!
+/docs/cli-stop                         /api/ghost-cli/stop/                     301!
+/docs/cli-restart                      /api/ghost-cli/restart/                  301!
+/docs/cli-run                          /api/ghost-cli/run/                      301!
+/docs/cli-update                       /api/ghost-cli/update/                   301!
+/docs/cli-uninstall                    /api/ghost-cli/uninstall/                301!
+/docs/cli-knowledge-base               /api/ghost-cli/knowledgebase/            301!
+/docs/using-a-custom-storage-module    /concepts/storage-adapters/              301!
+/docs/using-a-custom-scheduling-module /concepts/custom-schedulers/             301!
+/docs/using-ghost-cli-programatically  /api/ghost-cli/                          301!
+/docs/contributing                     /concepts/contributing/                  301!
+/docs/code-standards                   /concepts/principles/                    301!
+/docs/working-with-ghost               /install/source/                         301!
+/docs/working-with-the-admin-client    /install/source/                         301!
+/docs/the-core-team                    /concepts/governance/                    301!
+/docs/git-workflow                     /concepts/principles/                    301!
+/docs/codebase-overview                /concepts/architecture/                  301!
+
+
+# Custom Redirects for Readme.io (themes)
+
+/t                                       /api/handlebars-themes/                     301!
+/t/docs                                  /api/handlebars-themes/                     301!
+/t/docs/getting-started                  /api/handlebars-themes/                     301!
+/t/docs/handlebars                       /api/handlebars-themes/                     301!
+/t/docs/structure                        /api/handlebars-themes/structure/           301!
+/t/docs/templates                        /api/handlebars-themes/structure/           301!
+/t/docs/changelog                        /api/handlebars-themes/                     301!
+/t/docs/packagejson                      /api/handlebars-themes/packagejason/        301!
+/t/docs/gscan                            /api/handlebars-themes/                     301!
+/t/docs/i18n                             /api/handlebars-themes/helpers/translate/   301!
+/t/docs/context-overview                 /api/handlebars-themes/context/             301!
+/t/docs/index-context                    /api/handlebars-themes/context/index/       301!
+/t/docs/home-context                     /api/handlebars-themes/context/index/       301!
+/t/docs/post-context                     /api/handlebars-themes/context/post/        301!
+/t/docs/page-context                     /api/handlebars-themes/context/page/        301!
+/t/docs/tag-context                      /api/handlebars-themes/context/tag/         301!
+/t/docs/author-context                   /api/handlebars-themes/context/author/      301!
+/t/docs/paged-context                    /api/handlebars-themes/                     301!
+/t/docs/private-context                  /api/handlebars-themes/                     301!
+/t/docs/subscribe-context                /api/handlebars-themes/subscribers/         301!
+/t/docs/amp-context                      /api/handlebars-themes/google-amp/          301!
+/t/docs/subscribers                      /api/handlebars-themes/subscribers/         301!
+/t/docs/amp                              /api/handlebars-themes/amp/                 301!
+/t/docs/ghost-editor                     /api/handlebars-themes/editor/              301!
+/t/docs/helpers                          /api/handlebars-themes/helpers/functional/  301!
+/t/docs/blog                             /api/handlebars-themes/helpers/blog/        301!
+/t/docs/config                           /api/handlebars-themes/helpers/config/      301!
+/t/docs/asset                            /api/handlebars-themes/helpers/asset/       301!
+/t/docs/author                           /api/handlebars-themes/helpers/authors/     301!
+/t/docs/authors                          /api/handlebars-themes/helpers/authors/     301!
+/t/docs/body_class                       /api/handlebars-themes/helpers/body_class/  301!
+/t/docs/content                          /api/handlebars-themes/helpers/content/               301!
+/t/docs/date                             /api/handlebars-themes/helpers/date/                  301!
+/t/docs/encode                           /api/handlebars-themes/helpers/encode/                301!
+/t/docs/excerpt                          /api/handlebars-themes/helpers/excerpt/               301!
+/t/docs/facebook_url                     /api/handlebars-themes/helpers/facebook_url/          301!
+/t/docs/foreach                          /api/handlebars-themes/helpers/foreach/               301!
+/t/docs/get                              /api/handlebars-themes/helpers/get/                   301!
+/t/docs/ghost_foot                       /api/handlebars-themes/helpers/ghost_head_foot/       301!
+/t/docs/ghost_head                       /api/handlebars-themes/helpers/ghost_head_foot/       301!
+/t/docs/has                              /api/handlebars-themes/helpers/has/                   301!
+/t/docs/if                               /api/handlebars-themes/helpers/if/                    301!
+/t/docs/img_url                          /api/handlebars-themes/helpers/img_url/               301!
+/t/docs/is                               /api/handlebars-themes/helpers/is/                    301!
+/t/docs/lang                             /api/handlebars-themes/helpers/lang/                  301!
+/t/docs/log                              /api/handlebars-themes/helpers/log/                   301!
+/t/docs/meta_description                 /api/handlebars-themes/helpers/                       301!
+/t/docs/meta_title                       /api/handlebars-themes/helpers/                       301!
+/t/docs/navigation                       /api/handlebars-themes/helpers/navigation/            301!
+/t/docs/page_url                         /api/handlebars-themes/helpers/                       301!
+/t/docs/pagination                       /api/handlebars-themes/helpers/pagination/            301!
+/t/docs/t                                /api/handlebars-themes/helpers/translate/             301!
+/t/docs/tags                             /api/handlebars-themes/helpers/tags/                  301!
+/t/docs/title                            /api/handlebars-themes/helpers/title/                 301!
+/t/docs/twitter_url                      /api/handlebars-themes/helpers/twitter_url/           301!
+/t/docs/unless                           /api/handlebars-themes/helpers/unless/                301!
+/t/docs/url                              /api/handlebars-themes/helpers/url/                   301!
+/t/docs/ghost-url-api                    /api/handlebars-themes/                               301!
+/t/docs/ghost-api-ajax                   /api/handlebars-themes/                               301!
+/t/docs/highlight-first-post-on-home     /api/handlebars-themes/                               301!
+/t/docs/recent-featured-sidebar          /api/handlebars-themes/                               301!
+/t/v2.0.0/docs/changelog                 /api/handlebars-themes/                               301!
+
+
+# Custom Redirects for Readme.io (API)
+
+/a                                              /api/                                           301!
+/a/docs                                         /api/                                           301!
+/a/docs/overview                                /concepts/core/                                 301!
+/a/docs/changelog                               /api/                                           301!
+/a/docs/errors                                  /api/content/#errors                            301!
+/a/docs/pagination                              /api/content/#pagination                        301!
+/a/docs/parameters                              /api/content/#parameters                        301!
+/a/docs/client-authentication                   /api/content/#authentication                    301!
+/a/docs/user-authentication                     /api/admin/#user-authentication                 301!
+/a/docs/posts                                   /api/content/#posts                             301!
+/a/docs/postsid                                 /api/content/#posts                             301!
+/a/docs/ptsslugslug                             /api/content/#posts                             301!
+/a/docs/tags                                    /api/content/#tags                              301!
+/a/docs/tagsid                                  /api/content/#tags                              301!
+/a/docs/tagsslugslug                            /api/content/#tags                              301!
+/a/docs/users                                   /api/content/#authors                           301!
+/a/docs/usersid                                 /api/content/#authors                           301!
+/a/docs/usersslugslug                           /api/content/#authors                           301!
+/a/docs/post                                    /api/content/#posts                             301!
+/a/docs/tag                                     /api/content/#tags                              301!
+/a/docs/user                                    /api/content/#authors                           301!
+/a/docs/limit                                   /api/content/#limit                             301!
+/a/docs/page                                    /api/content/#page                              301!
+/a/docs/order                                   /api/content/#order                             301!
+/a/docs/include                                 /api/content/#include                           301!
+/a/docs/fields                                  /api/content/#fields                            301!
+/a/docs/filter                                  /api/content/#filter                            301!
+/a/docs/formats                                 /api/content/#formats                           301!
+/a/docs/absolute-urls                           /api/content/                                   301!
+/a/docs/ajax-calls-from-an-external-website     /api/javascript/content/                        301!
+
+
+# Get rid of broken language routes
+/en-us/*                                    /:splat                                               301!
+/zh_TW/*                                    /:splat                                               301!
+/pt-BR/*                                    /:splat                                               301!
+/pt_BR/*                                    /:splat                                               301!
+/fr/*                                       /:splat                                               301!
+/ja/*                                       /:splat                                               301!
+/zh/*                                       /:splat                                               301!
+/de/*                                       /:splat                                               301!
+/pl/*                                       /:splat                                               301!
+/ko/*                                       /:splat                                               301!
+/it/*                                       /:splat                                               301!
+
+
+# Cleanup Redirects
+
+/installation/deploy	                            /setup/                                       301!
+/installation	                                    /setup/                                       301!
+/docs/update	                                    /                                             301!
+/blog/2014/October	                                /                                             301!
+/installation/linux	                                /setup/                                       301!
+/installation/windows	                            /setup/                                       301!
+/docs/configuring-ghost	                            /concepts/config/                             301!
+/docs/setup	                                       /setup                                         301!
+/docs/install-with-3rd-party-tools	               /setup                                         301!
+/translations 	                                   /api/handlebars-themes/helpers/translate/      301!
+/docs/ls	                                       /api/ghost-cli/ls/                             301!
+/docs/start	                                       /api/ghost-cli/start/                          301!
+/installation/mac	                               /setup/                                      301!
+/usage/writing                                     /setup/                                      301!
+/usage/configuration                               /                                            301!
+/docs/troubleshooting-guide	                       https://ghost.org/faq/                                        301!
+/usage	                                           /concepts/config/                            301!
+/docs/basic-nginx-config-self-hosted-with-custom-domain	/setup/                                 301!
+/docs/overview	                                   /                                            301!
+/versions	                                       /                                            301!
+/docs/how-to-setup-ssl-for-self-hosted-ghost	   /concepts/config/                            301!
+/usage/settings 	                               /concepts/config/                            301!
+/docs/run	                                       /api/ghost-cli/run/                          301!
+/usage/configuration	                            /concepts/config/                           301!
+/docs/installing-ghost-for-developmentdebugging	    /install/local/                             301!
+/themes/changelog 	                                /api/handlebars-themes/                     301!
+/setup/ghost-pro	                                /setup/                                     301!
+/api/handlebars-themes/content 	                    /api/handlebars-themes/                     301!
+/setup/ubuntu 	                                    /install/ubuntu/                            301!
+/themes 	                                        /api/handlebars-themes/                     301!
+/docs/installing-ghost-for-production             	/install/ubuntu/                            301!
+/docs/ghost-restart	                                /api/ghost-cli/restart/                     301!
+/docs/uninstall	                                    /api/ghost-cli/uninstall/                   301!
+/usage/managing 	                                /concepts/introduction/                     301!
+/docs/alpha-and-beta-versions	                    /                                           301!
+/docs/log	                                        /api/ghost-cli/log/                         301!
+/mail 	                                            /concepts/config/                           301!
+/config                                             /concepts/config/                           301!
+/security                                           /concepts/vulnerabilities/                  301!
+/docs/introduction/edit                         	/                                           301!
+/docs/log/edit	                                    /                                           301!
+/contributing	                                    /concepts/contributing/                     301!
+/docs/installing-ghost-via-the-cli-1	            /setup/                                     301!
+/installation/deploy	                            /setup/                                     301!
+/installation	                                    /setup/                                     301!
+/translations	                                    /api/handlebars-themes/helpers/translate/   301!
+/docs/restart	                                    /api/ghost-cli/restart/                     301!
+/docs/stop	                                        /api/ghost-cli/stop/                        301!
+/installation/index.html	                        /setup/                                     301!
+/themes/index.html	                                /api/handlebars-themes/                     301!
+/docs/using-ghost-as-an-npm-module-old	            /setup/                                     301!
+/installation/?ref=marketopia	                    /setup/                                     301!
+/usage 	                                            /concepts/introduction/                     301!
+/usage/configuration/index.html	                    /concepts/config/                           301!
+/themes	                                            /api/handlebars-themes/                     301!
+/installation/mac	                                /setup/                                     301!
+
+# Old Zendesk
+/hc/en-us/articles/225093168-Migrating-From-WordPress-to-Ghost	/api/migration/                 301!
+/hc/en-us/articles/226511647-Setting-up-a-GoDaddy-Domain	/faq/godaddy-domain-setup-guide/    301!
+/hc/en-us/articles/224089787-Subscribers-Beta       /api/handlebars-themes/subscribers/         301!
+/hc/en-us/articles/115000301672-Public-API-Beta     /api/content/                               301!
+
+

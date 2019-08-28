@@ -1,0 +1,79 @@
+backend:
+  name: git-gateway
+  branch: master
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+
+media_folder: static/img
+public_folder: /img
+
+# The Title and Heading below are different in fields:
+#   Title is used for generating location path in browser;
+#   Heading is used for showing title in Chinese on the top of the post page;
+
+collections:
+  - name: "document"
+    label: "文档/法规"
+    folder: "content/document"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "链接", name: "slug", widget: "string" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "简介", name: "heading", widget: "string" }
+      - { label: "标签", name: "tag", widget: "string" }
+      - { label: "发布时间", name: "date", widget: "datetime" }
+      - { label: "Sidebar", name: "sidebar", widget: "hidden", default: "document" }
+      - { label: "正文", name: "body", widget: "markdown" }
+
+  - name: "knowledgeBase"
+    label: "知识库"
+    folder: "content/knowledge-base"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "链接", name: "slug", widget: "string" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "简介", name: "heading", widget: "string" }
+      - { label: "标签", name: "tag", widget: "string" }
+      - { label: "发布时间", name: "date", widget: "datetime" }
+      - { label: "Sidebar", name: "sidebar", widget: "hidden", default: "knowledge-base" }
+      - { label: "正文", name: "body", widget: "markdown" }
+
+  - name: "actionGuide"
+    label: "行动指南"
+    folder: "content/action-guide"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "链接", name: "slug", widget: "string" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "简介", name: "heading", widget: "string" }
+      - { label: "标签", name: "tag", widget: "string" }
+      - { label: "发布时间", name: "date", widget: "datetime" }
+      - { label: "Sidebar", name: "sidebar", widget: "hidden", default: "action-guide" }
+      - { label: "正文", name: "body", widget: "markdown" }
+
+  - name: "showcase"
+    label: "维权案例"
+    folder: "content/showcase"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "导航分类", name: "category", widget: "hidden", default: "showcase" }
+      - { label: "链接", name: "slug", widget: "string" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "简介", name: "heading", widget: "string" }
+      - { label: "类型", name: "type", widget: "string" }
+      - { label: "展示封面", name: "avatar", widget: "image" }
+      - { label: "发布时间", name: "date", widget: "datetime" }
+      - { label: "正文", name: "body", widget: "markdown" }

@@ -1,0 +1,38 @@
+<svg width="58" height="63" viewBox="0 0 58 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Path 4</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(350 -653)">
+<rect x="-350" y="653" width="58" height="63" fill="#E5E5E5"/>
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -704 -515L 736 -515L 736 2091L -704 2091L -704 -515Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Desktop HD" clip-path="url(#clip-0)">
+<path d="M -704 -515L 736 -515L 736 2091L -704 2091L -704 -515Z" fill="#FFFFFF"/>
+<g id="Group">
+<g id="Group">
+<g id="Group">
+<g id="Rectangle 3" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(-385 624)" fill="#FFFFFF"/>
+</g>
+<g id="Path 4">
+<use xlink:href="#path1_fill" transform="matrix(6.1132e-17 1 -1 6.13329e-17 -292 653)" fill="#3A88FD"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-395" y="619" width="140" height="140" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="5"/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 0 12C 0 5.37258 5.37258 0 12 0L 108 0C 114.627 0 120 5.37258 120 12L 120 108C 120 114.627 114.627 120 108 120L 12 120C 5.37258 120 0 114.627 0 108L 0 12Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 4.41087 58C 1.06206 58 -1.06181 54.4196 0.550017 51.4914L 27.6391 2.279C 29.3118 -0.759666 33.6882 -0.759666 35.3609 2.279L 62.45 51.4914C 64.0618 54.4196 61.9379 58 58.5891 58L 4.41087 58Z"/>
+</defs>
+</svg>
