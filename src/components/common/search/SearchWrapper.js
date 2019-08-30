@@ -9,7 +9,7 @@ const SearchWrapper = ({ children }) => (
     <InstantSearch
         appId={process.env.ALGOLIA_APP_ID}
         apiKey={process.env.ALGOLIA_ADMIN_KEY}
-        indexName="productUpdate"
+        indexName="document"
     >
         <Configure attributesToSnippet="html" />
         {children}

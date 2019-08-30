@@ -22,7 +22,7 @@ const markdownQueryConfig = [
 ]
 
 module.exports = {
-    defaultMarkdownSection: `productUpdate`,
+    defaultMarkdownSection: `document`,
     markdownQueryConfig,
     searchConfig: markdownQueryConfig
         .reduce((acc, { indexName, niceName }) => {
