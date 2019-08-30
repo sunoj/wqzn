@@ -19,6 +19,8 @@ jobs:
 
     - name: Github Action for Gatsby CLI
       uses: jzweifel/gatsby-cli-github-action@v1.0.0
+      env:
+        ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
       with:
         args: build
 
