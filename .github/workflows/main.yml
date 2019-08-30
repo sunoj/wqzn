@@ -1,0 +1,37 @@
+name: Node CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+    - name: Use Node.js 10.x
+      uses: actions/setup-node@v1
+      with:
+        version: 10.x
+    - name: npm install
+      run: |
+        npm install
+
+    - name: Github Action for Gatsby CLI
+      uses: jzweifel/gatsby-cli-github-action@v1.0.0
+      with:
+        args: build
+
+    - name: Rsync Deploy
+      uses: maxheld83/rsync@v0.1.0
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        SSH_PUBLIC_KEY:  ${{ secrets.SSH_PUBLIC_KEY }}
+        HOST_NAME: ""
+        HOST_IP: ""
+        HOST_FINGERPRINT: ""
+      with:
+        needs: Write sha
+        args:
+          $GITHUB_WORKSPACE/public/
+          "wqzn@149.28.143.101:www"
