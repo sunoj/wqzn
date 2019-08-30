@@ -27,6 +27,7 @@ jobs:
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         SSH_PUBLIC_KEY:  ${{ secrets.SSH_PUBLIC_KEY }}
+        ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
         HOST_NAME: ""
         HOST_IP: ""
         HOST_FINGERPRINT: ""
