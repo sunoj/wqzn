@@ -23,7 +23,7 @@ const REQUIRED_SETTINGS = {
     distinct: true,
     attributeForDistinct: `slug`,
     // This ensures that chunks higher up on a page rank higher
-    customRanking: [`desc(customRanking.heading)`, `asc(customRanking.position)`],
+    customRanking: [`desc(customRanking.title)`, `asc(customRanking.position)`],
     // Defines the order algolia ranks various attributes in
     searchableAttributes: [`title`, `headings`, `html`, `url`, `tags.name`],
 }
