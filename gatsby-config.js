@@ -150,7 +150,7 @@ if (runAlgoliaBuild() && hasAlgoliaKey()) {
             appId: process.env.ALGOLIA_APP_ID,
             apiKey: process.env.ALGOLIA_ADMIN_KEY,
             queries: algoliaQueries,
-            chunkSize: 10000, // default: 1000
+            chunkSize: 8000, // default: 1000
         },
     })
 }
