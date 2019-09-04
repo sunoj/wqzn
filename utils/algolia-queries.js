@@ -28,7 +28,6 @@ const mdNodeMap = ({ node }) => {
 
     delete node.frontmatter
     delete node.fields
-
     return node
 }
 

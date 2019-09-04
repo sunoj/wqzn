@@ -48,10 +48,6 @@ Uber司机很友好，一路上我们都在聊天，他说他在管理咨询公�
 
 
 ![](https://pic3.zhimg.com/50/v2-56f45aa4fd992d03258d49f81658e0d8_hd.gif)
-<div class="RichText-gifPlaceholder"><div class="GifPlayer" data-size="normal" data-za-detail-view-path-module="GifItem">![](https://pic3.zhimg.com/50/v2-56f45aa4fd992d03258d49f81658e0d8_hd.jpg)<svg width="60" height="60" viewbox="0 0 60 60" class="GifPlayer-icon"><g fill="none" fill-rule="evenodd"><ellipse fill="#000" opacity="0.45" cx="30" cy="30" rx="30" ry="30"></ellipse><ellipse stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4,1,4" cx="30" cy="30" rx="26" ry="26"></ellipse><svg x="16" y="18.5" class="GifPlayer-icon">
-
-</path></svg></g></svg></div></div></figure>
-
 **150刀！！！！！**
 
 我们立刻联系Uber客服，发现Uber没有客服电话。。。。只能APP联系。
@@ -74,7 +70,7 @@ Uber司机很友好，一路上我们都在聊天，他说他在管理咨询公�
 
 首先我们家不养狗。
 
-其次房子在比较高档的街区，道路十分干净，家里的鞋都有清洁，不会带有大块的脏东西。我们是从家门口直接上的Uber。 
+其次房子在比较高档的街区，道路十分干净，家里的鞋都有清洁，不会带有大块的脏东西。我们是从家门口直接上的Uber。
 
 ![](https://pic1.zhimg.com/50/v2-c0c0e4a22cdc7774a8d79907bd4c1252_hd.jpg)
 ![](https://pic1.zhimg.com/80/v2-c0c0e4a22cdc7774a8d79907bd4c1252_hd.jpg)
@@ -86,7 +82,9 @@ Uber司机很友好，一路上我们都在聊天，他说他在管理咨询公�
 于是反馈给Uber客服，说这事跟我们没关系，我们是被讹诈了。
 
 ![](https://pic2.zhimg.com/50/v2-80fdebb869e4ef6b85ca339930c0ded8_hd.jpg)
-![](https://pic2.zhimg.com/80/v2-80fdebb869e4ef6b85ca339930c0ded8_hd.jpg)<figcaption>我们的第一次反驳</figcaption></figure>
+![](https://pic2.zhimg.com/80/v2-80fdebb869e4ef6b85ca339930c0ded8_hd.jpg)
+<figcaption>我们的第一次反驳</figcaption>
+
 
 这封是我室友写的，复旦英文系的。官派气息十足。
 
@@ -114,7 +112,9 @@ Uber司机很友好，一路上我们都在聊天，他说他在管理咨询公�
 车是用我室友John的账号叫的。所以落款仍写的John。
 
 ![](https://pic4.zhimg.com/50/v2-7e1fe692855caec39fbd0225e036ef39_hd.jpg)
-![](https://pic4.zhimg.com/80/v2-7e1fe692855caec39fbd0225e036ef39_hd.jpg)<figcaption>我们第二次反驳</figcaption></figure>
+![](https://pic4.zhimg.com/80/v2-7e1fe692855caec39fbd0225e036ef39_hd.jpg)
+<figcaption>我们第二次反驳</figcaption>
+
 
 1.  我们没有带任何宠物上车，家里也不养狗，我们的鞋上没有过分的污渍
 2.  司机伪造了这张照片，在我们下车之后 或上车之前
