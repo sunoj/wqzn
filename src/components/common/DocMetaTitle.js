@@ -9,7 +9,7 @@ function DocMetaTitle({ title, location }) {
     <MetaData
       data={{
         site: { siteMetadata: { description: '', siteUrl: '', title: '' } },
-        ghostPost: { meta_title: `${title}-维权指南` }
+        post: { meta_title: `${title}-维权指南` }
       }}
       location={location}
       type="article"

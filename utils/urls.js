@@ -19,7 +19,7 @@ module.exports.urlForMarkdown = (node, fallback, absolute) => {
 }
 
 // Create a Gatsby-style URL for resources in Ghost. These are currently the same but they might not always be
-module.exports.urlForGhostPost = (postNode, section, absolute) => {
+module.exports.urlForpost = (postNode, section, absolute) => {
     const path = `/${section}/${postNode.slug}/`
 
     return absolute ? convertToAbsoluteUrl(path) : path

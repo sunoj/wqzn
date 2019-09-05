@@ -30,6 +30,7 @@ export const markdownFields = graphql`
             toc
             keywords
             category
+            originalLinks
         }
         html
         fields {

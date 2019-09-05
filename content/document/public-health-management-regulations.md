@@ -5,6 +5,9 @@ heading: 2011年3月10日卫生部令第80号发布，2016年1月19日根据《�
 tag: 政策法规
 date: 2019-07-30T11:23:58.622Z
 sidebar: document
+originalLinks:
+    - http://www.botou.gov.cn/article1.asp?id=12219&scid=325
+    - http://www.nhc.gov.cn/wjw/bmgz/201103/92f444020425492589f273a486468903.shtml
 ---
 ## 第一章 总 则
 

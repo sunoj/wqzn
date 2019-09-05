@@ -33,7 +33,6 @@ class Post extends React.Component {
     render() {
         const { location } = this.props
         const post = this.props.data.markdownRemark
-
         const sideBarLayout = {}
 
         const { sidebar } = post.frontmatter || ``
@@ -83,11 +82,12 @@ class Post extends React.Component {
         const FixedBottomTip = () => {
             return (
                 <div className="post-content">
+                    <hr/>
                     <h3>依然存在疑问？</h3>
                     <p>
                         请加入我们的
                         <a
-                            href="https://t.me/jjbplus"
+                            href="https://t.me/wqznorg"
                             target="_blank"
                             rel="nofollow noopener noreferrer"
                         >
@@ -98,6 +98,30 @@ class Post extends React.Component {
                 </div>
             )
         }
+
+        const OriginalLinks = () => {
+            return (
+                <div className="post-content original-links">
+                    <h3>外部链接</h3>
+                    <ul>
+                        {
+                        post.frontmatter.originalLinks.length && (
+                            post.frontmatter.originalLinks.map((item, index) => {
+                                return (
+                                    <li>
+                                        <a href={`${item}`} target="_blank" rel="nofollow noopener noreferrer" >
+                                            {`${item}`}
+                                        </a>
+                                    </li>
+                                )
+                            })
+                        )
+                        }
+                    </ul>
+                </div>
+            )
+        }
+
 
         // Show in Duohui backend drawer
         const isPostOnly = location.search.indexOf('iframe=true') > 0;
@@ -156,6 +180,7 @@ class Post extends React.Component {
                                             }}
                                         />
                                     </RcViewer>
+                                    { post.frontmatter.originalLinks && (<OriginalLinks />)}
                                     {!isShowcasePost && (<FixedBottomTip />) }
                                 </article>
 
@@ -243,6 +268,7 @@ export const articleQuery = graphql`
                         heading
                         date
                         sidebar
+                        originalLinks
                     }
                 }
             }

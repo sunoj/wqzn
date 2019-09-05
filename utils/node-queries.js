@@ -25,14 +25,14 @@ frontmatter {
 }
 `
 
-const allGhostPosts = function allGhostPosts(tag, fields = defaultGhostFields) {
+const allposts = function allposts(tag, fields = defaultGhostFields) {
     if (!tag) {
         throw new Error(`Please provide a tag property`)
     }
 
     let query = `
         {
-            allGhostPost(
+            allpost(
                 sort: {order: ASC, fields: published_at},
                 filter: {
                     tags: {elemMatch: {slug: {eq: "${tag}"}}},
@@ -76,6 +76,6 @@ const allMarkdownPosts = function allMarkdownposts(section, fields = defaultMark
 }
 
 module.exports = {
-    allGhostPosts: allGhostPosts,
+    allposts: allposts,
     allMarkdownPosts: allMarkdownPosts,
 }

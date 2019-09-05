@@ -13,6 +13,8 @@ next:
 sidebar: "data-schema-stub"
 keywords:
     - data-schema-stub
+originalLinks:
+    - https://unsplash.it/
 ---
 
  “This is a data schema stub for Gatsby.js and is not used. It must exist for builds to function”

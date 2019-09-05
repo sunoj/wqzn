@@ -7,39 +7,39 @@ import { tags as tagsHelper } from '@tryghost/helpers'
 import ImageMeta from './ImageMeta'
 
 const ArticleMetaGhost = ({ data, canonical, title, overwriteDefaultImage, image }) => {
-    const { ghostPost } = data
+    const { post } = data
     const { siteMetadata } = data.site
 
-    const publicTags = _.map(tagsHelper(ghostPost, { visibility: `public`, fn: tag => tag }), `name`)
-    const seoImage = (overwriteDefaultImage && ghostPost.feature_image) ? ghostPost.feature_image : image
+    const publicTags = _.map(tagsHelper(post, { visibility: `public`, fn: tag => tag }), `name`)
+    const seoImage = (overwriteDefaultImage && post.feature_image) ? post.feature_image : image
 
     return (
         <>
             <Helmet>
-                <title>{ghostPost.meta_title || title || ghostPost.title}</title>
-                <meta name="description" content={ghostPost.meta_description || ghostPost.excerpt} />
+                <title>{post.meta_title || title || post.title}</title>
+                <meta name="description" content={post.meta_description || post.excerpt} />
                 <link rel="canonical" href={canonical} />
 
                 <meta property="og:site_name" content={siteMetadata.title} />
                 <meta property="og:type" content="article" />
                 <meta property="og:title"
                     content={
-                        ghostPost.og_title ||
+                        post.og_title ||
                         title ||
-                        ghostPost.meta_title ||
-                        ghostPost.title
+                        post.meta_title ||
+                        post.title
                     }
                 />
                 <meta property="og:description"
                     content={
-                        ghostPost.og_description ||
-                        ghostPost.excerpt ||
-                        ghostPost.meta_description
+                        post.og_description ||
+                        post.excerpt ||
+                        post.meta_description
                     }
                 />
                 <meta property="og:url" content={canonical} />
-                <meta property="article:published_time" content={ghostPost.published_at} />
-                <meta property="article:modified_time" content={ghostPost.updated_at} />
+                <meta property="article:published_time" content={post.published_at} />
+                <meta property="article:modified_time" content={post.updated_at} />
                 {publicTags.map((keyword, i) => (<meta property="article:tag" content={keyword} key={i} />))}
             </Helmet>
             <ImageMeta image={seoImage} />
@@ -53,7 +53,7 @@ ArticleMetaGhost.defaultProps = {
 
 ArticleMetaGhost.propTypes = {
     data: PropTypes.shape({
-        ghostPost: PropTypes.shape({
+        post: PropTypes.shape({
             title: PropTypes.string.isRequired,
             published_at: PropTypes.string.isRequired,
             updated_at: PropTypes.string.isRequired,
