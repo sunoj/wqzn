@@ -37,4 +37,4 @@ jobs:
         needs: Write sha
         args:
           $GITHUB_WORKSPACE/public/
-          "wqzn@149.28.143.101:www"
+          "wqzn@124.156.134.152:www"
